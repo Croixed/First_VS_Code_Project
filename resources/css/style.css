@@ -7,7 +7,7 @@
 
 header {
     display: flex;
-    background-color: rgba(74, 60, 160, 0.5);
+    background-color: rgba(74, 60, 160, 0.3);
     backdrop-filter: blur(7px);
     height: 59px;
     font-size: 26px;
@@ -15,6 +15,7 @@ header {
     width: 100vw;
     position: fixed;
     align-items: center;
+    z-index: 3;
 }
 
 .title {
@@ -29,7 +30,10 @@ nav {
 .content-wrapper {
     padding: 20px;
     width: max-content;
-    
+    margin: 16px 0px;
+    background-color: rgba(36, 32, 65, 0.5);
+    border-radius: 12px;
+    backdrop-filter: blur(7px);
 }
 
 main {
@@ -64,4 +68,5 @@ img {
 p {
     width: 65vw;
     text-align: center;
+    margin-bottom: 10px;
 }
