@@ -9,7 +9,7 @@ header {
     display: flex;
     background-color: rgba(74, 60, 160, 0.5);
     backdrop-filter: blur(7px);
-    height: 49px;
+    height: 59px;
     font-size: 26px;
     font-weight: bold;
     width: 100vw;
@@ -27,7 +27,7 @@ nav {
 }
 
 .content-wrapper {
-    padding-top: 10px;
+    padding: 20px;
     width: max-content;
     
 }
@@ -35,11 +35,11 @@ nav {
 main {
     /* background-color: slategray; */
 
-background: rgba(0, 0, 0, 0.55) url("../images/printer2.jpg");
-  background-blend-mode: darken;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background: rgba(0, 0, 0, 0.55) url("../images/printer2.jpg");
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     width: 100%;
     display: flex;
@@ -57,4 +57,11 @@ h3 {
 img {
     width: 65vw;
     border-radius: 20px;
+    height: 600px;
+    object-fit: cover;
+}
+
+p {
+    width: 65vw;
+    text-align: center;
 }
