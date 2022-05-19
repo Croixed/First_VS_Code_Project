@@ -3,13 +3,52 @@
     font-family: sans-serif;
 }
 
-body {
-    background-color: slategray;
+header {
+    display: flex;
 }
 
-nav {
+main {
+    background-color: slategray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+header {
+    display: flex;
     background-color: slateblue;
     height: 40px;
     font-size: 26px;
     font-weight: bold;
+    width: 100vw;
+    position: fixed;
+    align-items: center;
+}
+
+.title {
+    font-size: 37px;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.content-wrapper {
+    padding-top: 10px;
+    width: max-content;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 42px;
+}
+
+img {
+    width: 65vw;
+    border-radius: 20px;
 }
