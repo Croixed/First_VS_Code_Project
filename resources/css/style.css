@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: slategray;
+}
+
+nav {
+    background-color: slateblue;
+    height: 40px;
+    font-size: 26px;
+    font-weight: bold;
+}
